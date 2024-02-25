@@ -14,7 +14,7 @@ const navItemClicked = ref(0);
 </script>
 
 <template>
-  <div class="max-w-[1440px] mx-auto px-5 font-roboto dark:bg-black/95 dark:text-white" :class="{ 'dark' : isDark }">
+  <div class="max-w-[1440px] mx-auto px-2 md:px-5 font-roboto dark:bg-black/95 dark:text-white" :class="{ 'dark' : isDark }">
     <nav class="w-full flex justify-between items-center font-semibold py-6 text-xl">
       <div>@minmin423</div>
 
