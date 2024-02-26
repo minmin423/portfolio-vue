@@ -1,6 +1,6 @@
 <template>
   <div class="w-full min-h-screen text-black/90 dark:text-white">
-    <div class="flex flex-col gap-4 pb-10 text-xl">
+    <div class="flex flex-col gap-4 pb-10 text-lg md:text-xl">
       <h2>Hi, I'm minmin423, a Full stack web developer.</h2>
       <p class="text-black/60 dark:text-gray-200">I'm a degree holder in BSIT major in Web and Mobile Application Development.</p>
 
