@@ -5,6 +5,7 @@ import { Icon } from '@iconify/vue';
 
 const navItems = ref([
   {name: 'Home', route: "/"},
+  // {name: 'Skills', route: "/skills"},
   {name: 'About', route: "/about"},
   //{name: 'Contact', route: "/contact"},
 ]);
@@ -14,9 +15,9 @@ const menuClosed = ref(true);
 </script>
 
 <template>
-  <div class="max-w-[1440px] mx-auto px-5 font-roboto dark:bg-black/95 dark:text-white" :class="{ 'dark' : isDark }">
+  <div class="max-w-[1440px] mx-auto px-5 font-roboto bg-gray-50 dark:bg-gray-950 dark:text-white" :class="{ 'dark' : isDark }">
     <nav class="w-full flex justify-between items-center font-semibold py-6 text-xl">
-      <div>/minmin423</div>
+      <div class="cursor-default">{{ `<Minmin423 />` }}</div>
 
       <div @click="menuClosed = !menuClosed" class="flex md:hidden cursor-pointer rounded border border-gray-400/0 hover:border-gray-400/10 relative h-full">
         <Icon v-if="menuClosed" icon="mingcute:menu-fill" class="h-7 w-7" />
@@ -54,7 +55,8 @@ const menuClosed = ref(true);
           <div class="h-8 w-0.5 bg-gray-500"></div>
 
           <div @click="isDark = !isDark" class="hidden rounded-full hover:bg-gray-100 dark:hover:bg-gray-900 aspect-square md:flex justify-center items-center cursor-pointer">
-            <Icon icon="ph:sun-fill" class="h-7 w-7 mx-2" />
+            <Icon v-if="isDark" icon="ph:moon-fill" class="h-7 w-7 mx-2" />
+            <Icon v-else icon="ph:sun-fill" class="h-7 w-7 mx-2" />
           </div>
       </div>
     </nav>
