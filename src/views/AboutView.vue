@@ -21,7 +21,7 @@
 
         <AboutCard title="education" :details="[
           '- I pursued a BS in Information Technology degree at Baliuag University in Baliuag, Bulacan, Philippines.',
-          '- My major was Web and Mobile Application Development.',
+          '- My major is Web and Mobile Application Development.',
           '- I graduated in December 2023.',
           '- Our capstone project won the Best Capstone Award.',
         ]" />

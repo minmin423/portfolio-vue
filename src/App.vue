@@ -23,7 +23,7 @@ const menuClosed = ref(true);
         <Icon v-if="menuClosed" icon="mingcute:menu-fill" class="h-7 w-7" />
         <Icon v-else icon="mingcute:close-fill" class="h-7 w-7" />
 
-        <div v-if="!menuClosed" class="absolute bg-white dark:bg-black w-[50vw] rounded p-2 text-base top-10 right-0 border dark:border-white/20 flex flex-col">
+        <div v-if="!menuClosed" class="absolute bg-gray-50 dark:bg-gray-950 w-[50vw] rounded p-2 text-base top-10 right-0 border dark:border-white/20 flex flex-col">
           <RouterLink 
             v-for="(navItem, index) in navItems" 
             :key="index" 
