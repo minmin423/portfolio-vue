@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import { ref } from 'vue';
+import { onMounted, ref, watch } from 'vue';
 import { Icon } from '@iconify/vue';
 
 const navItems = ref([
@@ -12,6 +12,23 @@ const navItems = ref([
 const isDark = ref(false);
 const navItemClicked = ref(0);
 const menuClosed = ref(true);
+
+const getNavIndexFromLocalStorage = () => {
+  const storedValue = localStorage.getItem('navItemClicked');
+  return storedValue ? JSON.parse(storedValue) : 0;
+};
+
+const storeNavIndexInLocalStorage = () => {
+  localStorage.setItem('navItemClicked', JSON.stringify(navItemClicked.value));
+};
+
+watch(navItemClicked, () => {
+  storeNavIndexInLocalStorage();
+});
+
+onMounted(() => {
+  navItemClicked.value = getNavIndexFromLocalStorage();
+});
 </script>
 
 <template>
