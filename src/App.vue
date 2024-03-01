@@ -32,7 +32,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="max-w-[1440px] mx-auto px-5 font-roboto bg-gray-50 dark:bg-gray-950 dark:text-white" :class="{ 'dark' : isDark }">
+  <div class="max-w-[1440px] mx-auto px-5 font-roboto bg-gray-50 dark:bg-[#1b1d1e] dark:text-white" :class="{ 'dark' : isDark }">
     <nav class="w-full flex justify-between items-center font-semibold py-6 text-xl">
       <div class="cursor-default">{{ `<Minmin423 />` }}</div>
 
