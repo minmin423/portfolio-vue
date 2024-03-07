@@ -61,7 +61,7 @@
             <Icon icon="simple-icons:tailwindcss" class="h-8 w-8" />
         </ProjectCard>
 
-        <ProjectCard title="landing-page" desc="Simple website developed using React.js and Tailwind CSS while taking The Odin Project course."
+        <ProjectCard title="landing-page" desc="Simple website developed using HTML, CSS, and Javascript while taking The Odin Project course."
         link="https://github.com/minmin423/landing-page" live="https://minmin423.github.io/landing-page/">
           <Icon icon="flowbite:css-solid" class="h-8 w-8 p-0.5" />
           <Icon icon="ri:javascript-fill" class="h-8 w-8" />
