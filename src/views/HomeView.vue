@@ -14,14 +14,14 @@
 
       <div class="grid md:grid-cols-2 gap-4">
 
-        <ProjectCard title="portfolio-vue" desc="Portfolio developed using Vue.js, Tailwind CSS, and Vite."
+        <ProjectCard title="portfolio-vue" desc="This portfolio, developed using Vue.js, Tailwind CSS, and Vite."
         link="https://github.com/minmin423/portfolio-vue">
           <Icon icon="carbon:logo-vue" class="h-8 w-8 p-0.5" />
           <Icon icon="simple-icons:tailwindcss" class="h-8 w-8" />
         </ProjectCard>
 
         <ProjectCard title="toolbox-nuxt" desc="Website with various tools developed using Nuxt.js, Vue.js, and Tailwind CSS."
-        link="https://github.com/minmin423/toolbox">
+        link="https://github.com/minmin423/toolbox" live="https://toolbox-peach.vercel.app/">
           <Icon icon="file-icons:nuxt" class="h-8 w-8 p-0.5" />
           <Icon icon="carbon:logo-vue" class="h-8 w-8 p-0.5" />
           <Icon icon="simple-icons:tailwindcss" class="h-8 w-8" />
@@ -33,13 +33,21 @@
           <Icon icon="mdi:firebase" class="h-8 w-8 p-0.5" />
         </ProjectCard>
 
-        <ProjectCard title="portfolio-react" desc="Portfolio developed using React.js, Tailwind CSS, and Vite."
-        link="https://github.com/minmin423/portfolio">
-          <Icon icon="mdi:react" class="h-8 w-8" />
-            <Icon icon="simple-icons:tailwindcss" class="h-8 w-8" />
+        <ProjectCard title="nuxt-graphql" desc="Simple website that shows SpaceX's launches and rockets developed using Typescript, Nuxt, Vue, GraphQL, and Tailwind CSS."
+        link="https://github.com/minmin423/NuxtVGP" live="https://nuxt-lapc-minmin423.vercel.app/">
+          <Icon icon="file-icons:nuxt" class="h-8 w-8 p-0.5" />
+          <Icon icon="carbon:logo-vue" class="h-8 w-8 p-0.5" />
+          <Icon icon="simple-icons:tailwindcss" class="h-8 w-8" />
+          <Icon icon="mdi:graphql" class="h-8 w-8" />
         </ProjectCard>
 
-        <ProjectCard title="items-crud-api" desc="Simple website developed using Laravel, and MongoDB, developed to showcase my backend skills. Has functional create, read, update, and delete of items and categories."
+        <ProjectCard title="portfolio-react" desc="Portfolio developed using React.js, Tailwind CSS, and Vite."
+        link="https://github.com/minmin423/portfolio" live="https://minmin423.github.io/portfolio/">
+          <Icon icon="mdi:react" class="h-8 w-8" />
+          <Icon icon="simple-icons:tailwindcss" class="h-8 w-8" />
+        </ProjectCard>
+
+        <ProjectCard title="items-crud-api" desc="Simple API developed using Laravel, and MongoDB, developed to showcase my backend skills. Has functional create, read, update, and delete of items and categories."
         link="https://github.com/minmin423/jbe-laravel">
             <Icon icon="mdi:laravel" class="h-8 w-8 p-0.5" />
             <Icon icon="simple-icons:mongodb" class="h-8 w-8 p-0.5" />
@@ -54,7 +62,7 @@
         </ProjectCard>
 
         <ProjectCard title="landing-page" desc="Simple website developed using React.js and Tailwind CSS while taking The Odin Project course."
-        link="https://github.com/minmin423/landing-page">
+        link="https://github.com/minmin423/landing-page" live="https://minmin423.github.io/landing-page/">
           <Icon icon="flowbite:css-solid" class="h-8 w-8 p-0.5" />
           <Icon icon="ri:javascript-fill" class="h-8 w-8" />
         </ProjectCard>

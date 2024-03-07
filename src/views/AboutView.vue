@@ -17,6 +17,7 @@
         <AboutCard title="whoami" :details="[
           '- I am a passionate programmer who always strives to be a better problem solver.',
           '- I acquired software development experience during my internship in 2023.',
+          '- I also acquired knowledge about concepts such as REST API, GraphQL, and MVC during my internship and study.',
         ]" />
 
         <AboutCard title="education" :details="[
