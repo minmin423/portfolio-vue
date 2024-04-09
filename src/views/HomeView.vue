@@ -3,7 +3,7 @@
     <!-- INTRO SECTION -->
     <div class="flex flex-col gap-4 pb-8 text-lg md:text-xl">
       <h2>Hi, I'm <span class="font-medium">Michael Angelo Dela Cruz,</span> a Full stack web developer.</h2>
-      <p class="text-black/60 dark:text-gray-200 md:text-lg">I previously worked as a Full Stack Web Developer Intern. I'm a degree holder in BSIT major in Web and Mobile Application Development. 🎓</p>
+      <p class="text-black/60 dark:text-gray-200 md:text-lg">I'm currently working as a Jr. Code Support Engineer in Makati, Philippines. And I previously worked as a Full Stack Web Developer Intern in Quezon City, Philippines. I'm a degree holder in BSIT major in Web and Mobile Application Development. 🎓</p>
 
       <ContactLinks />
     </div>
