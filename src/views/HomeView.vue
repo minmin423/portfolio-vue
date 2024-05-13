@@ -14,6 +14,12 @@
 
       <div class="grid md:grid-cols-2 gap-4">
 
+        <ProjectCard title="calendar-next" desc="A personalized printable calendar maker, developed using Next.js and Tailwind CSS."
+        link="https://calen-minmin423s-projects.vercel.app/">
+          <Icon icon="ri:nextjs-fill" class="h-8 w-8" />
+          <Icon icon="simple-icons:tailwindcss" class="h-8 w-8" />
+        </ProjectCard>
+        
         <ProjectCard title="portfolio-vue" desc="This portfolio, developed using Vue.js, Tailwind CSS, and Vite."
         link="https://github.com/minmin423/portfolio-vue">
           <Icon icon="carbon:logo-vue" class="h-8 w-8 p-0.5" />
