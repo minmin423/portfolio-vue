@@ -55,6 +55,7 @@ const frontEndSkills = [
   { name: "Vue.js", icon: "carbon:logo-vue" },
   { name: "Nuxt.js", icon: "file-icons:nuxt" },
   { name: "React.js", icon: "mdi:react" },
+  { name: "Next.js", icon: "ri:nextjs-fill" },
   { name: "Javascript", icon: "ri:javascript-fill" },
   { name: "Tailwind CSS", icon: "simple-icons:tailwindcss" },
   { name: "CSS", icon: "flowbite:css-solid" },
